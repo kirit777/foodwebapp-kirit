@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Dancing Script', cursive;
+}
+
+/*############## Header starts############3*/
+.navbar {
+  background-color: rgba(255, 0, 102, 0.5);
+  border-radius: 0% 0% 40% 64% / 10% 0% 39% 52%;
+  min-height: 13vh;
+  border: solid 2px rgba(255, 0, 102, 0.3);
+  position: fixed;
+  right: 0%;
+  top: 0%;
+  z-index: 99;
+}
+
+.navbar .logo a {
+  font-size: 1.4rem;
+  color: #FFFF33;
+  text-shadow: #000 1px 2px 10px;
+}
+
+.navbar ul li #img_box {
+  height: 65px;
+  width: 65px;
+  overflow: hidden;
+}
+
+.navbar ul li #img_box a {
+  height: 100%;
+  width: 100%;
+}
+
+.navbar ul li #img_box a img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  border: solid 3px #09FBD3;
+}
+
+.navbar ul li a {
+  font-size: 1.4rem;
+  color: #FFFF33;
+  text-shadow: #000 1px 2px 10px;
+}
+
+/*############## Header Ends############3*/
+/*############## Footer Starts############3*/
+.footer_div {
+  background-color: rgba(255, 0, 102, 0.7);
+  border-radius: 40px 40px 0px 0px;
+  min-height: 17vh;
+  border: solid 2px rgba(255, 0, 102, 0.3);
+  width: 100%;
+}
+
+.footer_div ul li {
+  list-style: none;
+  text-decoration: none;
+}
+
+.footer_div ul li a {
+  font-size: 1.4rem;
+  color: #FFFF33;
+  text-shadow: #000 1px 2px 10px;
+  text-decoration: none;
+}
+
+.footer_div ul li a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer_div h2 {
+  font-size: 1.4rem;
+  color: #FFFF33;
+  text-shadow: #000 1px 2px 10px;
+  text-decoration: none;
+}
+
+.footer_div h2:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+/*############## Footer Ends############3*/
+/*# sourceMappingURL=header.css.map */

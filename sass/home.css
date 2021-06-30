@@ -1,0 +1,420 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Dancing Script', cursive;
+}
+
+body {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 130, 70, 0.3)), to(rgba(155, 50, 120, 0.6))), url("../images/back1.jpg");
+  background-image: linear-gradient(rgba(255, 130, 70, 0.3), rgba(155, 50, 120, 0.6)), url("../images/back1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.main_div {
+  padding: .8rem;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.main_div h1 {
+  color: #FFFF33;
+  font-size: 3rem;
+  text-shadow: 1px 1px 10px #000;
+}
+
+.main_div h1 span {
+  color: #00FFFF;
+  text-shadow: 1px 1px 10px #000;
+}
+
+.main_div table tr {
+  margin-top: .5rem;
+  background-color: aqua;
+  -webkit-box-shadow: 2px 0px 10px #000;
+          box-shadow: 2px 0px 10px #000;
+  -webkit-transition: -webkit-transform .1s linear;
+  transition: -webkit-transform .1s linear;
+  transition: transform .1s linear;
+  transition: transform .1s linear, -webkit-transform .1s linear;
+}
+
+.main_div table tr:hover {
+  background-color: #FFFF33;
+  color: azure;
+  text-shadow: 1px 1px 10px #000;
+}
+
+.main_div table tr td {
+  padding: .5rem;
+}
+
+.main_div table tr td .img_box {
+  height: 6rem;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+}
+
+.main_div table tr td .img_box:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.main_div table tr td .img_box img {
+  height: 100%;
+  width: 100%;
+}
+
+/*############# Drinks Starts################## */
+h1 {
+  width: 100%;
+  text-align: center;
+  padding-top: 5rem;
+  color: #FFFF33;
+  font-size: 3rem;
+  text-shadow: 1px 1px 10px #000;
+}
+
+h1 span {
+  color: #00FFFF;
+  text-shadow: 1px 1px 10px #000;
+}
+
+.main_div {
+  height: auto;
+  width: 100vw;
+  overflow-x: scroll;
+}
+
+.main_div .p_card {
+  width: 40rem;
+  margin-left: 2rem;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+}
+
+.main_div .p_card:hover {
+  background-color: #FFFF33;
+  text-shadow: 1px 1px 10px #000;
+  -webkit-transform: translateY(-10%);
+          transform: translateY(-10%);
+}
+
+/*############# Drinks Ends################## */
+/*############# Pizza Starts################## */
+h1 {
+  width: 100%;
+  text-align: center;
+  padding-top: 5rem;
+  color: #FFFF33;
+  font-size: 3rem;
+  text-shadow: 1px 1px 10px #000;
+}
+
+h1 span {
+  color: #00FFFF;
+  text-shadow: 1px 1px 10px #000;
+}
+
+.main_div {
+  height: auto;
+  width: 100vw;
+  overflow-x: scroll;
+}
+
+.main_div .p_card {
+  width: 40rem;
+  margin-left: 2rem;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+}
+
+.main_div .p_card:hover {
+  background-color: #FFFF33;
+  text-shadow: 1px 1px 10px #000;
+  -webkit-transform: translateY(-10%);
+          transform: translateY(-10%);
+}
+
+.main_div .p_card img {
+  -webkit-transition: .3s linear;
+  transition: .3s linear;
+}
+
+.main_div .p_card img:hover {
+  -webkit-transform: rotate(360deg) scale(1.2);
+          transform: rotate(360deg) scale(1.2);
+  border-radius: 40px;
+}
+
+/*############# Pizza Starts################## */
+/*############# item Starts################## */
+.main_item_div {
+  height: 100vh;
+  width: 100vw;
+}
+
+.main_item_div .img_box {
+  width: 100%;
+  height: 100vh;
+  border-right: cadetblue solid 1px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.main_item_div .img_box a {
+  height: 70%;
+  width: 100%;
+}
+
+.main_item_div .img_box a img {
+  height: 100%;
+  width: 100%;
+}
+
+.main_item_div .text {
+  height: 100vh;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.main_item_div .text .center {
+  background-color: #f0fff9;
+  height: 70%;
+  width: 70%;
+  padding: 3rem 8rem 4rem 2rem;
+  -webkit-box-shadow: #000 1px 1px 10px;
+          box-shadow: #000 1px 1px 10px;
+}
+
+.main_item_div .text .center h2 {
+  width: 100%;
+  text-align: center;
+  padding-top: 1rem;
+  color: #FFFF33;
+  font-size: 3rem;
+  text-shadow: 1px 1px 10px #000;
+}
+
+.main_item_div .text .center h2 span {
+  color: #00FFFF;
+  text-shadow: 1px 1px 10px #000;
+}
+
+/*############# Item Ends################## */
+/*############# slide Starts################## */
+.main_div_slide {
+  width: 100vw;
+  height: 35vh;
+  margin-bottom: 12rem;
+}
+
+.main_div_slide .demo {
+  height: 100%;
+  width: 100vw;
+}
+
+.main_div_slide .demo .carousel-inner {
+  height: 100%;
+  width: 100vw;
+}
+
+.main_div_slide .demo .carousel-inner img {
+  height: 100%;
+  width: 100%;
+}
+
+/*############# slide Ends################## */
+/*############# My Account Starts################## */
+.main_div_account {
+  height: 50vh;
+  width: 100vw;
+}
+
+.main_div_account .banner_image {
+  width: 100%;
+  height: 70vh;
+  overflow: hidden;
+}
+
+.main_div_account .banner_image a {
+  height: 100%;
+  width: 100%;
+}
+
+.main_div_account .banner_image a img {
+  height: 100%;
+  width: 100%;
+}
+
+.main_div_account .profile_image {
+  width: 100%;
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+}
+
+.main_div_account .profile_image #center_div {
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+  border: solid 10px #00FFFF;
+  border-radius: 50%;
+  z-index: 9900;
+  position: absolute;
+  top: 40%;
+  left: 2%;
+}
+
+.main_div_account .profile_image #center_div:hover {
+  -webkit-animation: roun 4s linear infinite alternate;
+          animation: roun 4s linear infinite alternate;
+}
+
+@-webkit-keyframes roun {
+  0% {
+    border-radius: 24% 32% 26% 35% / 32% 38% 46% 53%;
+  }
+  10% {
+    border-radius: 15% 16% 19% 18% / 15% 16% 15% 18%;
+  }
+  20% {
+    border-radius: 24% 32% 26% 35% / 32% 38% 46% 53%;
+  }
+  30% {
+    border-radius: 15% 16% 19% 18% / 15% 16% 15% 18%;
+  }
+  40% {
+    border-radius: 24% 32% 26% 35% / 32% 38% 46% 53%;
+  }
+  50% {
+    border-radius: 15% 16% 19% 18% / 15% 16% 15% 18%;
+  }
+  60% {
+    border-radius: 24% 32% 26% 35% / 32% 38% 46% 53%;
+  }
+  70% {
+    border-radius: 15% 16% 19% 18% / 15% 16% 15% 18%;
+  }
+  80% {
+    border-radius: 24% 32% 26% 35% / 32% 38% 46% 53%;
+  }
+  90% {
+    border-radius: 15% 16% 19% 18% / 15% 16% 15% 18%;
+  }
+  100% {
+    border-radius: 24% 32% 26% 35% / 32% 38% 46% 53%;
+  }
+}
+
+@keyframes roun {
+  0% {
+    border-radius: 24% 32% 26% 35% / 32% 38% 46% 53%;
+  }
+  10% {
+    border-radius: 15% 16% 19% 18% / 15% 16% 15% 18%;
+  }
+  20% {
+    border-radius: 24% 32% 26% 35% / 32% 38% 46% 53%;
+  }
+  30% {
+    border-radius: 15% 16% 19% 18% / 15% 16% 15% 18%;
+  }
+  40% {
+    border-radius: 24% 32% 26% 35% / 32% 38% 46% 53%;
+  }
+  50% {
+    border-radius: 15% 16% 19% 18% / 15% 16% 15% 18%;
+  }
+  60% {
+    border-radius: 24% 32% 26% 35% / 32% 38% 46% 53%;
+  }
+  70% {
+    border-radius: 15% 16% 19% 18% / 15% 16% 15% 18%;
+  }
+  80% {
+    border-radius: 24% 32% 26% 35% / 32% 38% 46% 53%;
+  }
+  90% {
+    border-radius: 15% 16% 19% 18% / 15% 16% 15% 18%;
+  }
+  100% {
+    border-radius: 24% 32% 26% 35% / 32% 38% 46% 53%;
+  }
+}
+
+.main_div_account .profile_image #center_div img {
+  height: 100%;
+  width: 100%;
+}
+
+.main_div_account .add_item {
+  margin-bottom: 4rem;
+}
+
+.main_div_account .add_item h2 {
+  width: 100%;
+  text-align: center;
+  padding-top: 1rem;
+  color: #FFFF33;
+  font-size: 3rem;
+  text-shadow: 1px 1px 10px #000;
+}
+
+.main_div_account .add_item h2 span {
+  color: #00FFFF;
+  text-shadow: 1px 1px 10px #000;
+}
+
+.main_div_account .add_item input {
+  height: 5.4rem;
+  font-size: 1.3rem;
+  text-shadow: 1px 1px 10px #000;
+}
+
+.main_div_account .add_item input:hover {
+  background-color: #FFFF33;
+}
+
+.main_div_account .add_item select {
+  height: 5.4rem;
+  font-size: 1.3rem;
+  text-shadow: 1px 1px 10px #000;
+}
+
+.main_div_account .add_item select:hover {
+  background-color: #FFFF33;
+}
+
+.main_div_account .add_item button {
+  border: none;
+  padding: .5rem;
+  border-radius: 10px;
+  -webkit-transition: -webkit-transform .4s linear;
+  transition: -webkit-transform .4s linear;
+  transition: transform .4s linear;
+  transition: transform .4s linear, -webkit-transform .4s linear;
+}
+
+.main_div_account .add_item button:hover {
+  -webkit-transform: scale(1.2) rotate(360deg);
+          transform: scale(1.2) rotate(360deg);
+}
+
+/*############# My Account Ends################## */
+/*# sourceMappingURL=home.css.map */

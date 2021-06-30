@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+   
+}
+body{
+    background-image:linear-gradient(rgba(255,130,70,0.3),rgba(155,50,120,0.6)), url("../images/back1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.main_div{
+    padding: .8rem;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    overflow-y: scroll;
+
+    & h1{
+        color: #FFFF33;
+        font-size: 3rem;
+        text-shadow: 1px 1px 10px #000;
+
+        & span{
+            color: #00FFFF;
+            text-shadow: 1px 1px 10px #000;
+        }
+    }
+
+    & table{
+        
+
+        & tr{
+            margin-top: .5rem;
+            background-color: aqua;
+            box-shadow: 2px 0px 10px #000;
+            transition:  transform .1s linear;
+
+            &:hover{
+                background-color: #FFFF33;
+                color: azure;
+                text-shadow: 1px 1px 10px #000;
+            }
+
+            & td {
+                padding: .5rem;
+
+
+                & .img_box{
+                    height: 6rem;
+                    transition: .2s linear;
+                    &:hover{
+                        transform: scale(1.2);
+                    }
+
+                    & img{
+                        height: 100%;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+/*############# Drinks Starts################## */
+h1{
+    width: 100%;
+    text-align: center;
+    padding-top: 5rem;
+    color: #FFFF33;
+    font-size: 3rem;
+    text-shadow: 1px 1px 10px #000;
+
+    & span{
+        color: #00FFFF;
+        text-shadow: 1px 1px 10px #000;
+    }
+}
+.main_div{
+    height: auto;
+    width: 100vw;
+    overflow-x: scroll;
+
+    & .p_card{
+        width: 40rem;
+        margin-left: 2rem;
+        transition: .2s linear;
+        &:hover{
+            background-color:#FFFF33 ;
+            text-shadow: 1px 1px 10px #000;
+            transform: translateY(-10%);
+        }
+    }
+}
+/*############# Drinks Ends################## */
+/*############# Pizza Starts################## */
+h1{
+    width: 100%;
+    text-align: center;
+    padding-top: 5rem;
+    color: #FFFF33;
+    font-size: 3rem;
+    text-shadow: 1px 1px 10px #000;
+
+    & span{
+        color: #00FFFF;
+        text-shadow: 1px 1px 10px #000;
+    }
+}
+.main_div{
+    height: auto;
+    width: 100vw;
+    overflow-x: scroll;
+
+    & .p_card{
+        width: 40rem;
+        margin-left: 2rem;
+        transition: .2s linear;
+        &:hover{
+            background-color:#FFFF33 ;
+            text-shadow: 1px 1px 10px #000;
+            transform: translateY(-10%);
+        }
+
+        & img{
+            transition: .3s linear;
+
+            &:hover{
+                transform: rotate(360deg) scale(1.2);
+                border-radius: 40px;
+            }
+        }
+    }
+}
+/*############# Pizza Starts################## */
+/*############# item Starts################## */
+.main_item_div{
+    height: 100vh;
+    width: 100vw;
+    // overflow-x: scroll;
+
+    & .img_box{
+        width: 100%;
+        height: 100vh;
+        border-right: cadetblue solid 1px;
+        display: grid;
+        place-items: center;
+        
+        & a{
+            height: 70%;
+            width: 100%;
+
+            & img{
+                height: 100%;
+                width: 100%;
+            }
+        }
+        
+    }
+
+    & .text{
+        height: 100vh;
+        width: 100%;
+        display: grid;
+        place-items: center;
+
+        & .center{
+            background-color: hsl(155%, 178%, 97%);
+            height: 70%;
+            width: 70%;
+            padding: 3rem 8rem 4rem 2rem;
+            box-shadow: #000 1px 1px 10px;
+
+            & h2{
+                width: 100%;
+                text-align: center;
+                padding-top: 1rem;
+                color: #FFFF33;
+                font-size: 3rem;
+                text-shadow: 1px 1px 10px #000;
+            
+                & span{
+                    color: #00FFFF;
+                    text-shadow: 1px 1px 10px #000;
+                }
+            }
+
+        }
+            
+    }
+    
+}
+/*############# Item Ends################## */
+/*############# slide Starts################## */
+.main_div_slide{
+    width: 100vw;
+    height: 35vh;
+    margin-bottom: 12rem;
+    & .demo{
+         height: 100%;
+         width: 100vw;
+
+        & .carousel-inner{
+            height: 100%;
+            width: 100vw;
+
+            & img{
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+}
+/*############# slide Ends################## */
+/*############# My Account Starts################## */
+.main_div_account{
+    height: 50vh;
+    width: 100vw;
+    // overflow-x: scroll;
+   // position: relative;
+
+    & .banner_image{
+        width: 100%;
+        height: 70vh;
+        overflow: hidden;
+
+        & a{
+            height: 100%;
+            width: 100%;
+
+            & img{
+                height: 100%;
+                width: 100%;
+            }
+        }
+
+    }
+    & .profile_image{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        
+
+        & #center_div{
+            height: 200px;
+            width: 200px;
+            overflow: hidden;
+            border: solid 10px #00FFFF;
+            border-radius: 50%;
+            z-index: 9900;
+            position: absolute;
+            top: 40%;
+            left: 2%;
+
+            &:hover{
+                animation: roun 4s linear infinite alternate;
+
+                @keyframes roun {
+                    0%{
+                        border-radius:24% 32% 26% 35% / 32% 38% 46% 53%  ;
+                    }
+                    10%{
+                        border-radius: 15% 16% 19% 18% / 15% 16% 15% 18%  ;
+                    }
+                    20%{
+                        border-radius:24% 32% 26% 35% / 32% 38% 46% 53%  ;
+                    }
+                    30%{
+                        border-radius: 15% 16% 19% 18% / 15% 16% 15% 18%  ;
+                    }
+                    40%{
+                        border-radius:24% 32% 26% 35% / 32% 38% 46% 53%  ;
+                    }
+                    50%{
+                        border-radius: 15% 16% 19% 18% / 15% 16% 15% 18%  ;
+                    }
+                    60%{
+                        border-radius:24% 32% 26% 35% / 32% 38% 46% 53%  ;
+                    }
+                    70%{
+                        border-radius: 15% 16% 19% 18% / 15% 16% 15% 18%  ;
+                    }
+                    80%{
+                        border-radius:24% 32% 26% 35% / 32% 38% 46% 53%  ;
+                    }
+                    90%{
+                        border-radius: 15% 16% 19% 18% / 15% 16% 15% 18%  ;
+                    }
+                    100%{
+                        border-radius:24% 32% 26% 35% / 32% 38% 46% 53%  ;
+                    }
+                }
+            }
+
+            & img{
+                height: 100%;
+                width: 100%;
+            }
+        }
+        
+
+    }
+
+    .add_item{
+        margin-bottom: 4rem;
+
+        & h2{
+            width: 100%;
+            text-align: center;
+            padding-top: 1rem;
+            color: #FFFF33;
+            font-size: 3rem;
+            text-shadow: 1px 1px 10px #000;
+        
+            & span{
+                color: #00FFFF;
+                text-shadow: 1px 1px 10px #000;
+            }
+        }
+
+        & input{
+            height: 5.4rem;
+            font-size: 1.3rem;
+            text-shadow: 1px 1px 10px #000;
+
+            &:hover{
+                background-color:  #FFFF33;
+            }
+        }
+        & select{
+            height: 5.4rem;
+            font-size: 1.3rem;
+            text-shadow: 1px 1px 10px #000;
+
+            &:hover{
+                background-color:  #FFFF33;
+            }
+        }
+        & button {
+            border: none;
+            padding: .5rem;
+            border-radius: 10px;
+            transition: transform .4s linear; 
+            &:hover{
+                transform: scale(1.2) rotate(360deg);
+            }
+        }
+    }
+
+}
+/*############# My Account Ends################## */

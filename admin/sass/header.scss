@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+}
+/*############## Header starts############3*/
+// header{
+//     position: relative;
+// }
+.navbar{
+    background-color:rgba($color:#FF0066, $alpha: 0.5);
+    // border-radius: 0px 0px 40px 40px;
+    border-radius: 0% 0% 40% 64% / 10% 0% 39% 52% ;
+    min-height: 13vh;
+    border: solid 2px rgba($color:#FF0066, $alpha: 0.3);
+    position: fixed;
+    right: 0%;
+    top: 0%;
+    z-index: 99;
+    
+    & .logo{
+        
+        & a{
+                font-size: 1.4rem;
+                color: #FFFF33 ;
+                text-shadow: #000 1px 2px 10px;
+                
+        }
+    }
+    & ul{
+
+        & li{
+
+            & a{
+                
+                font-size: 1.4rem;
+                color: #FFFF33 ;
+                text-shadow: #000 1px 2px 10px;
+            }
+        }
+    }
+}
+/*############## Header Ends############3*/
+/*############## Footer Starts############3*/
+.footer_div{
+    background-color:rgba($color:#FF0066, $alpha: 0.7);
+    border-radius: 40px 40px 0px 0px;
+    min-height: 17vh;
+    border: solid 2px rgba($color:#FF0066, $alpha: 0.3);
+    width: 100%;
+
+    & ul{
+
+        & li{
+            list-style: none;
+            text-decoration: none;
+            & a{
+                font-size: 1.4rem;
+                color: #FFFF33 ;
+                text-shadow: #000 1px 2px 10px;
+                text-decoration: none;
+
+                &:hover{
+                    text-decoration: none;
+                    color: #fff;
+                }
+            }
+        }
+    }
+    & h2{
+        font-size: 1.4rem;
+        color: #FFFF33 ;
+        text-shadow: #000 1px 2px 10px;
+        text-decoration: none;
+
+        &:hover{
+            color: #fff;
+            cursor: pointer;
+        }
+    }
+}
+/*############## Footer Ends############3*/

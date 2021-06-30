@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+}
+/*############## Login Starts############3*/
+.main_div{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    background-image: url(../images/login_back.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    & .login_div{
+        background-color:rgba($color:#FF0066, $alpha: 0.5);
+        padding: 2rem 3rem;
+        border-radius: 10%;
+        display: grid;
+        place-items: center;
+
+        & h1{
+            color: #fff;
+            font-size: 4rem;
+            text-shadow: 1px 1px 10px #00FFFF;
+
+            & span{
+                color: #00FFFF;
+                text-shadow: 1px 1px 10px #00FFFF;
+            }
+        }
+
+        & .items{
+            display: flex;
+            justify-content: space-between;
+            padding: .9rem .3rem;
+            align-items: center;
+
+            & button {
+                border: none;
+                padding: .5rem;
+                border-radius: 10px;
+                transition: transform .4s linear; 
+                &:hover{
+                    transform: scale(1.2) rotate(360deg);
+                }
+            }
+
+            & label{
+                color: #fff;
+                font-size: 1.4rem;
+                text-shadow: 1px 1px 10px #000;
+            }
+
+            & input{
+                color: #fff;
+                font-size: 1.3rem;
+                text-shadow: 1px 1px 10px #000;
+                border: none;
+                background-color: transparent;
+                border-bottom: 1px solid #fff;
+                margin-left: 1rem;
+            }
+            
+            & #login{
+                color: #00FFFF;
+                border-bottom: 1px solid #00FFFF;
+            }
+
+            & #register1{
+                color: #66FF33;
+                border-bottom: 1px solid #66FF33 ;
+            }
+
+        }
+    }
+}
+/*############## Login Ends############3*/
+
+/*############## Register Starts############3*/
+.modal{
+    height: auto;
+    width:100%;
+    place-self: center;
+    border-radius: 10%;
+
+    & .modal-body{
+        background-color:rgba($color:#FF0066, $alpha: 1);
+        padding: 2rem 3rem;
+        display: grid;
+        place-items: center;
+
+        & button{
+            place-self: end;
+            color: #fff;
+            font-size: 3rem;
+        }
+
+        & h1{
+            color: #fff;
+            font-size: 4rem;
+            text-shadow: 1px 1px 10px #00FFFF;
+
+            & span{
+                color: #00FFFF;
+                text-shadow: 1px 1px 10px #00FFFF;
+            }
+        }
+        
+        & .items{
+            display: flex;
+            justify-content: space-between;
+            padding: .9rem .3rem;
+            align-items: center;
+
+            & label{
+                color: #fff;
+                font-size: 1.4rem;
+                text-shadow: 1px 1px 10px #000;
+            }
+
+            & input{
+                color: #fff;
+                font-size: 1.3rem;
+                text-shadow: 1px 1px 10px #000;
+                border: none;
+                background-color: transparent;
+                border-bottom: 1px solid #fff;
+                margin-left: 1rem;
+            }
+            
+            & #register{
+                color: #00FFFF;
+                border-bottom: 1px solid #00FFFF;
+            }
+
+            & #register1{
+                color: #66FF33;
+                border-bottom: 1px solid #66FF33 ;
+            }
+
+        }
+    }
+    
+}
+/*############## Login Ends############3*/
+
+
